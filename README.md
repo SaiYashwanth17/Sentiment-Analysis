@@ -1,1 +1,2 @@
 # Sentiment-Analysis
+This project is about analyzing the sentiments of twitter tweets. The tweets are classified into 3 categories(Positive, Negative, Neutral). I used TextBlob library for finding the polarity(Positive:>0, Negative:<0, Neutral:=0) of a tweet. I used NLTK library for data cleansing. Data cleasing plays a crucial role by filtering out the unwanted words and making the model more accurate. Finally I printed the averages of 3 categories. One can change the "query" attribute to get one's desired topic's tweets' sentiments.
